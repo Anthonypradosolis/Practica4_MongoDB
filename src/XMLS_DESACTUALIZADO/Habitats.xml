@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitats>
+    <habitat>
+        <nome>Antártida</nome>
+        <localizacion>Antártida</localizacion>
+        <especiesPinguins>
+            <especie>Aptenodytes forsteri</especie>
+            <especie>Pygoscelis adeliae</especie>
+            <especie>Pagodroma nivea</especie>
+        </especiesPinguins>
+        <descripcion>O hábitat máis frío do planeta, con temperaturas extremadamente
+            baixas. Fogar dos pinguíns emperador e Adelia.</descripcion>
+        <temperatura>-50°C a -20°C</temperatura>
+        <caracteristicas>Conxelación de océanos, ventos fortes, rexión inhóspita para outras
+            especies.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Illas Malvinas</nome>
+        <localizacion>Atlántico Sur</localizacion>
+        <especiesPinguins>
+            <especie>Aptenodytes patagonicus</especie>
+            <especie>Pygoscelis papua</especie>
+            <especie>Spheniscus magellanicus</especie>
+        </especiesPinguins>
+        <descripcion>Un hábitat máis temperado que a Antártida, con colonias de pinguíns rei,
+            de Magallanes e xénero Pygoscelis.</descripcion>
+        <temperatura>5°C a 10°C</temperatura>
+        <caracteristicas>Clima frío, pero sen as extremas condicións da Antártida, illas
+            rochosas e de difícil acceso.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Islas Galápagos</nome>
+        <localizacion>Océano Pacífico, Ecuador</localizacion>
+        <especiesPinguins>
+            <especie>Spheniscus mendiculus</especie>
+        </especiesPinguins>
+        <descripcion>Un habitat subtropical, onde se encontra o único pinguín que vive ao
+            norte da liña ecuatorial.</descripcion>
+        <temperatura>20°C a 30°C</temperatura>
+        <caracteristicas>Clima cálido, pinguíns pequenos adaptados ao calor, océano rico en
+            peixes.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Illas Kerguelen</nome>
+        <localizacion>Oceano Índico Subantártico</localizacion>
+        <especiesPinguins>
+            <especie>Pygoscelis papua</especie>
+            <especie>Chinstrap</especie>
+        </especiesPinguins>
+        <descripcion>Un habitat subantártico con temperaturas frías e unha gran cantidade de
+            ventos e choivas.</descripcion>
+        <temperatura>-10°C a 5°C</temperatura>
+        <caracteristicas>Condicións extremas, fortes correntes oceánicas que favorecen a
+            abundancia de kril e outros alimentos.</caracteristicas>
+    </habitat>
+</habitats>

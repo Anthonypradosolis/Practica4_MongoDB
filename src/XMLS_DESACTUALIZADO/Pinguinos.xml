@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinguins>
+    <pinguin>
+        <nome>Emperador</nome>
+        <nomeCientifico>Aptenodytes forsteri</nomeCientifico>
+        <habitat>Antártida</habitat>
+        <descripcion>O pinguín emperador é o máis grande de todas as especies de pinguíns.
+            Vive nas rexións máis frías da Antártida.</descripcion>
+        <alimentacion>Crustáceos, peixes, calamares</alimentacion>
+        <tamaño>1.2 m</tamaño>
+        <peso>40 kg</peso>
+        <caracteristicas>Adaptado para o frío extremo, camiña en bandos.</caracteristicas>
+    </pinguin>
+    <pinguin>
+        <nome>Reina</nome>
+        <nomeCientifico>Aptenodytes patagonicus</nomeCientifico>
+        <habitat>Illas Malvinas, Antártida Subantártica</habitat>
+        <descripcion>O pinguín reina semellante ao emperador, pero algo máis pequeno.
+            Habita nas illas subantárticas.</descripcion>
+        <alimentacion>Peixes, calamares</alimentacion>
+        <tamaño>0.9 m</tamaño>
+        <peso>15 kg</peso>
+        <caracteristicas>Colonias de cría e inmigración ao longo do ano.</caracteristicas>
+    </pinguin>
+    <pinguin>
+        <nome>Pinguín de Magallanes</nome>
+        <nomeCientifico>Spheniscus magellanicus</nomeCientifico>
+        <habitat>Costa de Chile e Arxentina</habitat>
+        <descripcion>Este pinguín habita as costas temperadas de Chile e Arxentina. É unha
+            das especies máis coñecidas da rexión.</descripcion>
+        <alimentacion>Peixes pequenos, crustáceos</alimentacion>
+        <tamaño>0.7 m</tamaño>
+        <peso>4.5 kg</peso>
+        <caracteristicas>Adecuado para climas temperados, forma colonias
+            numerosa.</caracteristicas>
+    </pinguin>
+</pinguins>

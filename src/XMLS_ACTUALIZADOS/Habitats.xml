@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitats>
+    <habitat>
+        <nome>Antártida</nome>
+        <localizacion>Antártida</localizacion>
+        <especiesPinguins>
+            <especie>Aptenodytes forsteri</especie>
+            <especie>Pygoscelis adeliae</especie>
+        </especiesPinguins>
+        <descripcion>A zona máis fría do planeta, onde as temperaturas alcanzan os -60°C
+            durante o inverno. Fogar de especies como o pinguín emperador.</descripcion>
+        <temperatura>-60°C a -30°C</temperatura>
+        <caracteristicas>Condicións extremadamente inóspitas, pero as grandes colonias de
+            pinguíns emperador fan fronte ao frío.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Illas Malvinas</nome>
+        <localizacion>Atlántico Sur</localizacion>
+        <especiesPinguins>
+            <especie>Aptenodytes patagonicus</especie>
+            <especie>Pygoscelis papua</especie>
+        </especiesPinguins>
+        <descripcion>Un lugar de transición entre o clima polar e o temperado. Aquí viven
+            varias especies, como o pinguín rei.</descripcion>
+        <temperatura>0°C a 15°C</temperatura>
+        <caracteristicas>Clima frío pero menos severo que a Antártida, ideal para a cría de
+            especies como o pinguín rei.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Illas Galápagos</nome>
+        <localizacion>Océano Pacífico, Ecuador</localizacion>
+        <especiesPinguins>
+            <especie>Spheniscus mendiculus</especie>
+        </especiesPinguins>
+        <descripcion>O único lugar onde vive o pinguín máis ao norte. Aquí a temperatura é
+            cálida pero a abundancia de peixes permite a supervivencia.</descripcion>
+        <temperatura>20°C a 30°C</temperatura>
+        <caracteristicas>Adaptado a climas cálidos, os pinguíns das Galápagos teñen unha
+            pelaxe máis fina que os seus parentes do sur.</caracteristicas>
+    </habitat>
+    <habitat>
+        <nome>Illas Kerguelen</nome>
+        <localizacion>Oceano Índico Subantártico</localizacion>
+        <especiesPinguins>
+            <especie>Pygoscelis papua</especie>
+            <especie>Chinstrap</especie>
+        </especiesPinguins>
+        <descripcion>Un hábitat subantártico con temperaturas frías, onde os ventos fortes e
+            as tormentas son comúns.</descripcion>
+        <temperatura>-10°C a 5°C</temperatura>
+        <caracteristicas>Rexión moi ventosa e chuviosa, con abundante comida no mar, o que
+            permite a supervivencia dos pinguíns nas súas colonias.</caracteristicas>
+    </habitat>
+</habitats>
