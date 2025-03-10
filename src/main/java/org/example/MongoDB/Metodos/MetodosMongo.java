@@ -39,12 +39,25 @@ public class MetodosMongo {
         }
     }
 
-    public void actualizarXML(MongoCollection<Document> collection, Document filtro, Document nuevosDatos) {
+    public void actualizarXML(String filePath, MongoCollection<Document> collection) {
+        XmlMapper xmlMapper = new XmlMapper();
         try {
-            collection.updateOne(filtro, new Document("$set", nuevosDatos));
-            System.out.println("Documento actualizado correctamente");
-        } catch (Exception e) {
-            System.err.println("Error al actualizar el documento: " + e.getMessage());
+            // Leer los datos del XML actualizado
+            List<Map<String, Object>> xmlData = xmlMapper.readValue(new File(filePath), List.class);
+
+            // Eliminar todos los documentos actuales de la colección
+            collection.deleteMany(new Document());
+            System.out.println("Todos los documentos antiguos han sido eliminados.");
+
+            // Insertar los nuevos documentos del XML actualizado
+            for (Map<String, Object> docData : xmlData) {
+                collection.insertOne(new Document(docData));
+            }
+            System.out.println("Datos reemplazados correctamente desde XML.");
+
+        } catch (IOException e) {
+            System.out.println("Error al actualizar los documentos: " + e.getMessage());
         }
     }
+
 }
