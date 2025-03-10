@@ -13,12 +13,15 @@ public class Main {
 
         MongoCollection collection = mongoDBConnection.getCollection("Habitats");
 
+        MongoCollection collection1 = mongoDBConnection.getCollection("Pinguinos");
+
         mongoDBConnection.getCollection("Habitats");
         mongoDBConnection.getCollection("Pinguinos");
 
         MetodosMongo metodosMongo = new MetodosMongo();
 
         metodosMongo.importarXML("habitats.xml",collection);
+        metodosMongo.importarXML("pinguinos.xml",collection1);
 
 
 
