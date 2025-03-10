@@ -20,8 +20,12 @@ public class Main {
 
         MetodosMongo metodosMongo = new MetodosMongo();
 
-        metodosMongo.importarXML("habitats.xml",collection);
-        metodosMongo.importarXML("pinguinos.xml",collection1);
+        metodosMongo.importarXML("/home/accesodatos/IdeaProjects/Practica4_MongoDB/src/XMLS_DESACTUALIZADO/Habitats.xml",collection);
+        metodosMongo.importarXML("/home/accesodatos/IdeaProjects/Practica4_MongoDB/src/XMLS_DESACTUALIZADO/Pinguinos.xml",collection1);
+
+
+        metodosMongo.actualizarXML("/home/accesodatos/IdeaProjects/Practica4_MongoDB/src/XMLS_ACTUALIZADOS/Habitats.xml",collection);
+        metodosMongo.actualizarXML("/home/accesodatos/IdeaProjects/Practica4_MongoDB/src/XMLS_ACTUALIZADOS/Pinguinos.xml",collection1);
 
 
 
